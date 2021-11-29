@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy Home</title>
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/9174788f8a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- nav-bar -->
+<nav class="navbar">
+    <div class="navbar-center">
+        <span class="nav-icons">
+            <i class="fas fa-bars"></i>
+        </span>
+        <img src="./images/logo.svg" alt="Store Logo">
+        <div class="cart-btn">
+            <span class="nav-icon">
+                <i class="fas fa-cart-plus"></i>
+            </span>
+            <div class="cart-items">0</div>
+        </div>
+    </div>
+</nav>
+
+<!-- End of navbar -->
+
+<header class="hero">
+    <div class="banner">
+        <h1 class="banner-title">Furniture Collection</h1>
+        <button class="banner-btn">Shop Now</button>
+    </div>
+</header>
+
+<!-- Products -->
+<section class="products">
+    <div class="section-title">
+        <h2>Our Products</h2>
+    </div>
+    <div class="products-center">
+    </div>
+</section>
+<!-- Cart -->
+<div class="cart-overlay">
+    <div class="cart">
+        <span class="close-cart">
+            <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Your cart</h2>
+        <div class="cart-content">
+            <!-- Here Cart items will be dynamically set -->
+        </div>
+        <div class="cart-footer">
+            <h3>your total: $ <span class="cart-total">0</span></h3>
+            <button class="clear-btn banner-btn">clear cart</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+</body>
+</html>
