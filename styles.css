@@ -116,6 +116,8 @@ body {
   .img-container {
     position: relative;
     overflow: hidden;
+    min-height: 200px;
+    max-height: 200px;
   }
   .bag-btn {
     position: absolute;
